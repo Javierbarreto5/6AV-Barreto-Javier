@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+    <div>
+        <form>
+            <fieldset>
+                <legend><b>Rellena tu CV</b></legend>
+                <label for="Provincia">Provincia</label>
+                <select id="Provincia" name="Provincia">
+                    <option value="00">--Seleccionar--</option>
+                    <option value="01">Buenos Aires</option>
+                    <option value="02">Catamarca</option>
+                    <option value="03">Chaco</option>
+                    <option value="04">Chubut</option>
+                    <option value="05">Córdoba</option>
+                    <option value="06">Corrientes</option>
+                    <option value="07">Entre Ríos</option>
+                    <option value="08">Formosa</option>
+                    <option value="19">Jujuy</option>
+                    <option value="10">La Pampa</option>
+                    <option value="11">La Rioja</option>
+                    <option value="12">Mendoza</option>
+                    <option value="13">Misiones</option>
+                    <option value="14">Nequén</option>
+                    <option value="15">Río Negro</option>
+                    <option value="16">Salta</option>
+                    <option value="17">San Juan</option>
+                    <option value="18">San Luis</option>
+                    <option value="19">Santa Cruz</option>
+                    <option value="20">Santa Fe</option>
+                    <option value="21">Santiago del Estero</option>
+                    <option value="22">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                    <option value="23">Tucumán</option>
+                </select>
+                <br>
+
+                <label for="dia">Fecha de nacimiento</label> <br/>
+                <input type="text" size="3" maxlength="2" id="dia" name="dia" />
+                de
+                <select id="mes" name="mes">
+                  <option value="1">Enero</option>
+                  <option value="2">Febrero</option>
+                  <option value="3">Marzo</option>
+                  <option value="4">Abril</option>
+                  <option value="5">Mayo</option>
+                  <option value="6">Junio</option>
+                  <option value="7">Julio</option>
+                  <option value="8">Agosto</option>
+                  <option value="9">Septiembre</option>
+                  <option value="10">Octubre</option>
+                  <option value="11">Noviembre</option>
+                  <option value="12">Diciembre</option>
+                </select>
+                de
+                <input type="text" size="5" maxlength="4" id="año" name="año" />
+              
+                <br/><br/>
+              
+                <label for="temasDeInteres">Temas de interés</label> <br/>
+                <select multiple="multiple" size="5" id="temasDeInteres" name="temasDeInteres">
+                  <option value="1">Administración de bases de datos</option>
+                  <option value="2">Análisis y programación</option>
+                  <option value="3">Arquitectura</option>
+                  <option value="4">Calidad</option>
+                  <option value="5">ERP, CRM, Business Intelligence</option>
+                </select>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
